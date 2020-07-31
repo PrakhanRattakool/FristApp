@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation">
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
 
+    app:startDestination="@id/titleFragment">
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.fristapp.TitleFragment"
+        android:label="TitleFragment" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.fristapp.ContactFragment"
+        android:label="ContactFragment" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.fristapp.AboutFragment"
+        android:label="AboutFragment" />
 </navigation>
