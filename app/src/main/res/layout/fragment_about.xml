@@ -32,7 +32,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginEnd="180dp"
             android:fontFamily="@font/baloo_bhai"
-            android:text="Profile"
+            android:text="About"
             android:textColor="@android:color/black"
             android:textSize="36sp"
             app:layout_constraintEnd_toEndOf="parent"

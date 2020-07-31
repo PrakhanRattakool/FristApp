@@ -6,13 +6,13 @@
     <fragment
         android:id="@+id/titleFragment"
         android:name="com.example.fristapp.TitleFragment"
-        android:label="TitleFragment" />
+        android:label="Profile" />
     <fragment
         android:id="@+id/contactFragment"
         android:name="com.example.fristapp.ContactFragment"
-        android:label="ContactFragment" />
+        android:label="Contact" />
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.example.fristapp.AboutFragment"
-        android:label="AboutFragment" />
+        android:label="About" />
 </navigation>
