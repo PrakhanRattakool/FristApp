@@ -6,6 +6,8 @@
     <item
         android:id="@+id/contactFragment"
         android:title="@string/contact" />
-    <item android:title="Contactlist" />
+    <item
+        android:id="@+id/contactlistFragment"
+        android:title="@string/contactlist" />
 
 </menu>

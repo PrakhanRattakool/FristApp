@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-
+    xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/titleFragment">
     <fragment
         android:id="@+id/titleFragment"
         android:name="com.example.fristapp.TitleFragment"
-        android:label="Profile" />
+        android:label="FirstApp"
+        tools:layout="@layout/fragment_title" />
     <fragment
         android:id="@+id/contactFragment"
         android:name="com.example.fristapp.ContactFragment"
-        android:label="Contact" />
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.example.fristapp.AboutFragment"
-        android:label="About" />
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
     <fragment
-        android:id="@+id/listFragment"
+        android:id="@+id/contactlistFragment"
         android:name="com.example.fristapp.fragment.list.ListFragment"
-        android:label="fragment_list"
+        android:label="ContactList"
         tools:layout="@layout/fragment_list" >
         <action
             android:id="@+id/action_listFragment_to_addFragment"
@@ -29,10 +31,10 @@
     <fragment
         android:id="@+id/addFragment"
         android:name="com.example.fristapp.fragment.add.AddFragment"
-        android:label="fragment_add"
+        android:label="Add"
         tools:layout="@layout/fragment_add" >
         <action
             android:id="@+id/action_addFragment_to_listFragment"
-            app:destination="@id/listFragment" />
+            app:destination="@id/contactlistFragment" />
     </fragment>
 </navigation>
