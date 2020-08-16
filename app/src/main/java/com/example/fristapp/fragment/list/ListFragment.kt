@@ -1,4 +1,4 @@
-package com.example.firstapp.fragments.list
+package com.example.fristapp.fragment.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
